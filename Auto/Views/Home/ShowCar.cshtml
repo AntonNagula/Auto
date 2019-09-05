@@ -1,0 +1,18 @@
+﻿@model Auto.ModelsApp.AppCar
+@{
+    ViewBag.Title = "Информация о машине";
+}
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="~/Content/Site.css" />
+</head>
+<body>
+    <div class="present">
+        <h1>@Model.Name</h1>
+        <h3>Цена: @Model.Price</h3>
+        <hr />
+        <p><img src="~/Files/@Model.ExtencionName" width="600" height="400" alt="@Model.Name"></p>
+        <p class="Info">@Model.Info</p>
+    </div>
+</body>
+</html>

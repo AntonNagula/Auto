@@ -1,0 +1,54 @@
+﻿@model Auto.ModelsApp.BrandsListViewModel
+@using Auto.Helpers
+@{
+    Layout = "~/Views/Shared/Head.cshtml";
+    ViewBag.Title = "Для покупателей";
+}
+
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="~/Content/Site.css" />
+</head>
+<body>
+    <form method="get">
+        <div class="form-inline">
+            <label class="control-label">Бренд: </label>
+            @Html.DropDownList("brand", Model.Brands as SelectList,
+                        htmlAttributes: new { @class = "form-control" })
+
+            <input type="submit" value="Фильтр" class="btn btn-default" />
+        </div>
+    </form>
+    <div class="container">
+        <div class="row" id="cars">
+            @foreach (var item in Model.Cars)
+            {
+                <div class="col-md-4">
+                    <p><img src="~/Files/@item.ExtencionName" width="300" height="200" alt="@item.Name"></p>
+                    <p>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </p>
+                    <p>
+                        @Html.DisplayFor(modelItem => item.Price)$
+                    </p>
+                    <p>
+                        <form method="post" action="/Buyer/Buy/@item.Id">
+                            <input type="submit" value="купить" />
+                        </form>
+                    </p>
+                    <p>
+                        <form method="get" action="/Buyer/ShowCar/@item.Id">
+                            <input type="submit" value="подробнее" />
+                        </form>
+                    </p>
+                </div>
+            }
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="row btn-group" id="center">
+        @Html.PageLinks(Model.PageInfo, x => Url.Action("Index", new { i = x }))
+    </div>
+</body>
+</html>

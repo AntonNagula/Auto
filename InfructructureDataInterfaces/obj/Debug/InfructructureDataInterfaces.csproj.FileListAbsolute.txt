@@ -1,0 +1,12 @@
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\InfructructureDataInterfaces\bin\Debug\InfructructureDataInterfaces.dll
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\InfructructureDataInterfaces\bin\Debug\InfructructureDataInterfaces.pdb
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\InfructructureDataInterfaces\obj\Debug\InfructructureDataInterfaces.csprojAssemblyReference.cache
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\InfructructureDataInterfaces\obj\Debug\InfructructureDataInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\InfructructureDataInterfaces\obj\Debug\InfructructureDataInterfaces.dll
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\InfructructureDataInterfaces\obj\Debug\InfructructureDataInterfaces.pdb
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\InfructructureDataInterfaces\bin\Debug\InfructructureDataInterfaces.dll
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\InfructructureDataInterfaces\bin\Debug\InfructructureDataInterfaces.pdb
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\InfructructureDataInterfaces\obj\Debug\InfructructureDataInterfaces.csprojAssemblyReference.cache
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\InfructructureDataInterfaces\obj\Debug\InfructructureDataInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\InfructructureDataInterfaces\obj\Debug\InfructructureDataInterfaces.dll
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\InfructructureDataInterfaces\obj\Debug\InfructructureDataInterfaces.pdb

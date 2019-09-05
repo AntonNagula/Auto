@@ -1,0 +1,35 @@
+﻿@model List<Auto.ModelsApp.AppBuyer>
+@{
+    Layout = "~/Views/Shared/User.cshtml";
+    ViewBag.Title = "BuyersForCar";
+}
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="~/Content/Site.css" />
+</head>
+<body>    
+    <table class="table">
+        <tr>
+
+            <th>Почта</th>
+            <th>Пароль</th>
+        </tr>
+        @if (Model!=null)
+        { foreach (var i in Model)
+            {
+            <tr>
+                <td>
+                    <a href="/Admin/ShowCars_of_User/@i.Id">@Html.DisplayFor(modelItem => i.Email)</a>
+                </td>
+                <td>
+                    <form method="post" action="/Buyer/Sell/@i.Id">
+                        <input type="submit" value="Продать" />
+                    </form>
+                </td>
+            </tr>
+            }
+        }
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainCore\bin\Debug\DomainCore.dll
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainCore\bin\Debug\DomainCore.pdb
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainCore\obj\Debug\DomainCore.csprojAssemblyReference.cache
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainCore\obj\Debug\DomainCore.csproj.CoreCompileInputs.cache
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainCore\obj\Debug\DomainCore.dll
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainCore\obj\Debug\DomainCore.pdb
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainCore\bin\Debug\DomainCore.dll
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainCore\bin\Debug\DomainCore.pdb
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainCore\obj\Debug\DomainCore.csprojAssemblyReference.cache
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainCore\obj\Debug\DomainCore.csproj.CoreCompileInputs.cache
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainCore\obj\Debug\DomainCore.dll
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainCore\obj\Debug\DomainCore.pdb

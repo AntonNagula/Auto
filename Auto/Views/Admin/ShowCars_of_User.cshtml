@@ -1,0 +1,36 @@
+﻿@model  IList<Auto.ModelsApp.AppCar>
+@{
+    Layout = "~/Views/Shared/Head.cshtml";
+    ViewBag.Title = "Машины покупателя";
+}
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="~/Content/Site.css" />
+</head>
+<body>
+
+    <table class="table">
+        <tr>
+
+            <th>Название модели</th>
+            <th>Стоимость</th>
+            <th></th>
+        </tr>
+        @foreach (var i in Model)
+        {
+            <tr>
+                <td>
+                    <a href="#">@Html.DisplayFor(modelItem => i.Name)</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => i.Price)$
+                </td>
+                <td>
+                    <img src="~/Files/@i.ExtencionName" width="300" height="200" alt="@i.Name">
+                </td>
+            </tr>
+        }
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainService\bin\Debug\DomainService.dll
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainService\bin\Debug\DomainService.pdb
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainService\bin\Debug\DomainCore.dll
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainService\bin\Debug\InfructructureDataInterfaces.dll
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainService\bin\Debug\DomainCore.pdb
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainService\bin\Debug\InfructructureDataInterfaces.pdb
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainService\obj\Debug\DomainService.csprojAssemblyReference.cache
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainService\obj\Debug\DomainService.csproj.CoreCompileInputs.cache
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainService\obj\Debug\DomainService.csproj.CopyComplete
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainService\obj\Debug\DomainService.dll
+C:\Users\Banderos\Desktop\проект на стажировку\магазин авто\DomainService\obj\Debug\DomainService.pdb
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainService\bin\Debug\DomainService.dll
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainService\bin\Debug\DomainService.pdb
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainService\bin\Debug\DomainCore.dll
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainService\bin\Debug\InfructructureDataInterfaces.dll
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainService\bin\Debug\DomainCore.pdb
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainService\bin\Debug\InfructructureDataInterfaces.pdb
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainService\obj\Debug\DomainService.csprojAssemblyReference.cache
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainService\obj\Debug\DomainService.csproj.CoreCompileInputs.cache
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainService\obj\Debug\DomainService.csproj.CopyComplete
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainService\obj\Debug\DomainService.dll
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainService\obj\Debug\DomainService.pdb
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainService\bin\Debug\AutoMapper.dll
+C:\Users\Banderos\Desktop\проект на стажировку\Auto\Auto\DomainService\bin\Debug\AutoMapper.xml

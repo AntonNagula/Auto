@@ -1,0 +1,28 @@
+﻿@model Auto.ModelsApp.AppCar
+@{
+    Layout = "~/Views/Shared/Head.cshtml";
+    ViewBag.Title = "Обновить";
+}
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="~/Content/Site.css" />
+</head>
+<body>
+    <div id="start">
+        <h4>  Выберите файл для загрузки</h4>
+        @using (Html.BeginForm("Update", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <input type="hidden" value="@Model.Id" name="Id" />
+            <input class="enter" type="file" name="upload" /><br>
+            <label for="1">Название модели</label>
+            <input id="1" class="enter" type="text" required="required" name="Name" value="@Model.Name" /><br>
+            <label for="2">Бренд</label>
+            <input id="2" class="enter" type="text" required="required" name="CarBrand" value="@Model.CarBrand" /><br>            
+            <label for="4">Цена</label>
+            <input id="4" class="enter" type="text" required="required" name="Price" value="@Model.Price" /><br>
+            <textarea name="Info" required="required" value="@Model.Info"></textarea>
+            <input class="enter" type="submit" value="Загрузить" />
+        }
+    </div>
+</body>
+</html>

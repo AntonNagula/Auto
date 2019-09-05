@@ -1,0 +1,17 @@
+﻿@{
+    Layout = "~/Views/Shared/User.cshtml";
+    ViewBag.Title = "Buy";
+}
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="~/Content/Site.css" />
+</head>
+<body class="background">
+    <div id="start">
+        <h4>@ViewBag.Message</h4>
+        <form method="get" action="/Home/Index">
+            <input type="submit" value="Список авто" />
+        </form>
+    </div>
+</body>
+</html>

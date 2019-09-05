@@ -1,0 +1,160 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+
+select,
+textarea {
+    max-width: 280px;
+}
+
+#cars {
+    margin-top: 20px;
+}
+
+.col-md-4 {
+    margin-top: 5px;
+}
+
+#start {
+    width: 300px;
+    height: 300px;
+    max-width: 60%;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+#create {
+    width: 300px;
+    height: 300px;
+    max-width: 60%;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+#Password {
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+
+#User {
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 13%;
+    margin-bottom: 10%;
+    font-size: 20px;
+    font-weight: 20px;
+}
+
+input.enter {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+textarea.enter {
+    margin-left: 10px;
+    width: 600px;
+    height:300px;
+}
+
+#back {
+    width: 100%;
+    height: 100%;
+}
+
+#Password input {
+    color: black;
+}
+
+#center {
+    margin-left: 40%;
+}
+
+a {
+    text-decoration: none;
+    margin-left:10px;
+}
+a.links:focus
+{
+    background:red;
+    color:aliceblue;
+    border-radius:4px;
+
+}
+    a:focus {
+        text-decoration: none;
+    }
+
+
+.ajax {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+
+.background {
+    background: url('фотки/Создать.jpg');
+}
+
+
+.present {
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.Info {
+    padding-right: 40%;
+}
+/*таблицы*/
+.table {
+    margin-right: 10%;
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background: #AFCDE7;
+    color: white;
+    padding: 10px 20px;
+}
+
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    width: 40px;
+    height: 20px;
+}
+
+td {
+    background: #D8E6F3;
+}
+
+    th:first-child, td:first-child {
+        text-align: left;
+    }

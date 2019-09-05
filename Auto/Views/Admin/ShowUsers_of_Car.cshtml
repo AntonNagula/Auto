@@ -1,0 +1,42 @@
+﻿@model  IList<Auto.ModelsApp.AppBuyer>
+@{
+    Layout = "~/Views/Shared/Head.cshtml";
+    ViewBag.Title = "Покупатели авто";
+}
+
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="~/Content/Site.css" />
+</head>
+<body>
+
+    @*<p>
+            Название модели: @Html.DisplayFor(model => Model.Name)
+        </p>
+        <p>
+            Цена автомобиля: @Html.DisplayFor(model => Model.Price)$
+        </p>
+        <p>
+            @Html.DisplayFor(model =>Model.CarBrand)
+        </p>*@
+    <table class="table">
+        <tr>
+
+            <th>Почта</th>
+            <th>Пароль</th>
+        </tr>
+        @foreach (var i in Model)
+        {
+            <tr>
+                <td>
+                    <a href="/Admin/ShowCars_of_User/@i.Id">@Html.DisplayFor(modelItem => i.Email)</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => i.Password)
+                </td>
+            </tr>
+        }
+    </table>
+
+</body>
+</html>

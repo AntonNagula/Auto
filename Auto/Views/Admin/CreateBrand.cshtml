@@ -1,0 +1,19 @@
+﻿@{
+    Layout = "~/Views/Shared/Head.cshtml";
+    ViewBag.Title = "Добавить бренд";
+}
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="~/Content/Site.css" />
+</head>
+<body class="background">
+    <div id="start">
+        <h4>Выберите файл для загрузки</h4>
+        @using (Html.BeginForm("CreateBrand", "Admin", FormMethod.Post))
+        {            
+            <input class="enter" type="text" name="brand" required="required" placeholder="введите название бренда" /><br>
+            <input class="enter" type="submit" value="Загрузить" />
+        }
+    </div>
+</body>
+</html>

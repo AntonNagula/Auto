@@ -1,0 +1,20 @@
+﻿@model Auto.ModelsApp.AppCar
+@{
+    ViewBag.Title = "Delete";
+}
+<div id="start">
+    <h4>Предупреждение</h4>
+    @using (Html.BeginForm("DeleteCar", "Admin", FormMethod.Post))
+    {
+        <input type="hidden" value="@Model.Id" name="Id" />
+        <p>В случае если есть или были заказы на машину - количество моделей будет просто обнулено. Если заказов нет модель будет удалена</p>
+        <label for="1">Название модели</label>
+        <input id="1" class="enter" type="text" required="required" name="Name" value="@Model.Name" /><br>
+        <label for="2">Бренд</label>
+        <input id="2" class="enter" type="text" required="required" name="CarBrand" value="@Model.CarBrand" /><br>
+        <label for="3">Количество моделей</label>
+        <input id="3" class="enter" type="text" required="required" pattern="^[ 0-9]+$" name="Count_Of_Unit" value="@Model.Count_Of_Unit" /><br>
+        
+        <input class="enter" type="submit" value="Удалить" />
+    }
+</div>
